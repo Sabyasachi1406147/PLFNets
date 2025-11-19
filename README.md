@@ -1,4 +1,4 @@
-# Complex-Valued SincNet (CV-SincNet)
+# Parameterized Learnable Filters (PLF-Net)
 
 ## Abstract
 Real-time radio-frequency (RF) sensing applications, such as waveform classification and human activity recognition (HAR), are hindered by conventional two-stage approaches that rely on time-frequency (TF) transforms followed by machine learning. This paper proposes a novel complex-valued neural network architecture that directly classifies raw IQ radar data using parameterized learnable filters (PLFs) as the first layer. Four structured PLFs—Sinc, Gaussian, Gammatone, and Ricker—are introduced to extract frequency-domain features efficiently and interpretably. Evaluated on both experimental and synthetic datasets for signal and modulation recognition, the PLF-based models achieve up to 47% higher accuracy than standard 1D CNNs, and 7% over real-valued filter CNNs, while reducing latency by 75% compared to spectrogram-based 2D CNNs. The results highlight the potential of structured PLFs for accurate, interpretable, and real-time RF sensing.
